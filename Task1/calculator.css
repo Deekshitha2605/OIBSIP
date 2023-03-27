@@ -1,0 +1,91 @@
+body{
+    padding:0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg");
+}
+.container
+{
+    width: 35%;
+    height: 65vh;
+    padding: 20px;
+    border-radius: 7px;
+    background-image: url("https://img.freepik.com/premium-vector/gold-background-with-smooth-gradient-color_573652-266.jpg");
+
+}
+.display #screen
+{
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .4em;
+    background: #ffffffd9;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px gray,
+                inset -10px -10px 10px gray;
+}
+.btns
+{
+    width: 100%;
+    margin-top: 2.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btns .row button
+{
+   width: 70px;
+   height: 60px;
+   font-size: 18px;
+   border: none;
+   outline: none;
+   margin: 5px;
+   border-radius: 4px;
+   box-shadow: 5px 5px 8px #f1f88f47,
+            -5px -5px 8px #f5defc;
+            transition: .1s; 
+}
+.btns .row button:hover
+{
+    box-shadow: inset 5px 5px 8px rgba(248, 248, 85, 0.311),
+                inset -5px -5px 8px #f2e648;
+}
+#eval
+{
+    background: #7878fd;
+    color: black;
+    box-shadow: inset 5px 5px 8px #9d9df5,
+                inset -5px -5px 8px #b5b5fa;
+}
+#eval:hover
+{
+    box-shadow: inset 5px 5px 8px #7878fd;
+                inset: -5px -5px 8px #7878fd;
+}
+#ac
+{
+    background: rgb(202, 247, 202);
+    color: black;
+}
+#ac:hover
+{
+    box-shadow: inset 5px 5px 8px #adf9b1,
+                inset -5px -5px 8px #9ffae9;
+}
+#ce
+{
+    background: rgb(202, 247, 202);
+    color: black;
+}
+#ce:hover
+{
+    box-shadow: inset 5px 5px 8px #adf9b1,
+                inset -5px -5px 8px #9ffae9;
+}

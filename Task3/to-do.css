@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* #5b7065, black */
+  body {
+    background-image: url("https://trumpwallpapers.com/wp-content/uploads/Yellow-Aesthetic-Wallpaper-01-2560x1600-1.jpg");
+    font-family: 'Times New Roman', serif;
+    min-height: center;
+  }
+  
+  button {
+    height: fit-content;
+    cursor: pointer;
+    color: #641c02;
+    background-color: #f5e188a5;
+  }
+  
+  .app {
+    width: 800px;
+    margin: auto;
+    padding-top: 60px;
+    color: rgb(62, 2, 100);
+  }
+  
+  .input-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(62, 2, 100);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 20px 0px;
+  }
+  
+  .to-do-input input {
+    width: 350px;
+    font-family: inherit;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .to-do-input button {
+    color: #0e0e0e;
+    font-family: inherit;
+    border: none;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .to-do-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .to-do-list i {
+    color: #330119;
+    cursor: pointer;
+  }
+  
+  .to-do-list .fa-pen-to-square {
+    color: #310018;
+  }
+  
+  .to-do-list button {
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(247, 207, 132, 0.796);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px 0px rgba(251, 173, 5, 0.962);
+  }
+  
+  .input-controller {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .input-controller textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    resize: none;
+    line-height: 1.2;
+    color: rgb(6, 1, 15);
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 1.4rem;
+    font-family: inherit;
+    transition: all 0.30s ease-in-out;
+  }
+  
+  textarea:focus {
+    box-shadow: 0 0 5px rgb(255, 173, 210);
+  }
+  
+  .edit-controller {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .update-controller {
+    display: none;
+  }
+  
+  @media(max-width: 778px) {
+    .app {
+      width: 95%;
+      text-align: center;
+    }
+  
+    .input-header {
+      flex-direction: column;
+      padding-bottom: 10px;
+    }
+  
+    .to-do-input {
+      display: flex;
+    }
+  
+    .to-do-input input {
+      width: 400px;
+    }
+  
+  }
